@@ -223,4 +223,5 @@ __marimo__/
 .streamlit/secrets.toml
 
 *init*.py
+.venv_1.45/
 .idea/
