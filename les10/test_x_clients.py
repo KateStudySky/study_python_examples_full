@@ -9,7 +9,7 @@ class TestCompany:
 
     # В реальном проекте URL и Connection String берутся из конфигов
     api = CompanyApi("http://139.100.217.192:8000")
-    db = CompanyTable("postgresql://qa:skyqa@139.100.217.192:5432/x_clients")
+    db = CompanyTable("postgresql+psycopg2://qa:skyqa@139.100.217.192:5432/x_clients")
 
     @allure.id("SKYPRO-3")
     @allure.story("Создание компаний")
